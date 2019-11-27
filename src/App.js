@@ -5,7 +5,7 @@ import Weather from "./Weather";
 
 function App() {
   const [weather, setWeather] = useState([]);
-  const APIKEY = "b9e97cc1ff468389b46a8d5b5945b75a";
+  const APIKEY = "";
 
   async function fetchData(e) {
     const city = e.target.elements.city.value;
